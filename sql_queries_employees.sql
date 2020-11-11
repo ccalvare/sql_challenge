@@ -1,3 +1,6 @@
+-- SQL Queries - Carter Alvarez
+
+
 -- 1. List the following details of each employee: employee #, last & first name, sex, and salary
 SELECT 
     e.emp_no "Employee Number", 
