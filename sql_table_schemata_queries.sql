@@ -1,3 +1,5 @@
+-- Creating Tables - Carter Alvarez
+
 DROP TABLE IF EXISTS departments;
 DROP TABLE IF EXISTS dept_emp;
 DROP TABLE IF EXISTS dept_manager;
@@ -14,7 +16,7 @@ CREATE TABLE departments (
 
 CREATE TABLE employees (
 	emp_no INTEGER NOT NULL PRIMARY KEY,
-	emp_title_id CHAR(5) NOT NULL, 
+	emp_title_id CHAR(5) NOT NULL,  
 	birth_date DATE NOT NULL, 
 	first_name VARCHAR NOT NULL, 
 	last_name VARCHAR NOT NULL, 
